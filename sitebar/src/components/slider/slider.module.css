@@ -1,0 +1,32 @@
+.slider {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  max-height: 600px;
+  position: relative;
+}
+
+.prevBtn {
+  position: absolute;
+  top: 50%;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 11px 13px;
+  border-radius: 50%;
+  border: 2px solid #307dda;
+  background-color: #7bc0eb;
+  color: #fff;
+}
+
+.nextBtn {
+  position: absolute;
+  top: 50%;
+  right: 2%;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 11px 13px;
+  border-radius: 50%;
+  border: 2px solid #307dda;
+  background-color: #7bc0eb;
+  color: #fff;
+}/*# sourceMappingURL=slider.module.css.map */

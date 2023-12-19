@@ -1,0 +1,33 @@
+.importBlock{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    align-items: center;
+}
+
+.fileTransfer{
+    width: 600px;
+    height: 100px;
+    border: 1px solid #000;
+    border-radius: 6px;
+}
+
+.importBtnBlock{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.importBtn{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 15px;
+    color: #fff;
+    background-color: #4CAF50;
+    border-radius: 6px;
+}

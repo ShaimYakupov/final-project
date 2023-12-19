@@ -1,0 +1,11 @@
+.buttons {
+  display: flex;
+  justify-content: right;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #2db553;
+  color: #fff;
+  margin: 0 3px;
+}/*# sourceMappingURL=registr.css.map */

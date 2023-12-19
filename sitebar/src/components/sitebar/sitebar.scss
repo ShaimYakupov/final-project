@@ -1,0 +1,98 @@
+.sitebar{
+    max-width: 15%;
+    width: 100%;
+    height: 100vh;
+    background-color: #181b6c;
+}
+
+.logo{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo__img{
+   background-color: #fff;
+   border-radius: 50%;
+   padding: 10px 10px;
+}
+
+
+
+.sitebar__title__block{
+    padding: 10px 10px;
+    margin: 2px 0;
+    width: 100%;
+    max-width: 90%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #12132b;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+.sitebar__menu{
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.sitebar__link{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.register{
+    display: flex;
+    list-style: none;
+}
+
+.register__link{
+    text-decoration: none;
+    margin: 0 3px;
+    padding: 10px 15px;
+    background-color: #12132b;
+    color: #fff;
+}
+
+
+
+// sitebarList
+.sitebar__list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 9px;
+    
+    width: 100%;
+    align-items: center;
+    border-bottom: 2px solid #fff;
+}
+.sitebar__list:last-child{
+    border-bottom: none;
+}
+
+.sitebar__list__icon{
+    font-size: 25px;
+    color: #fff;
+}
+
+.sitebar__list__link{
+    color: #fff;
+    font-size: 15px;
+    padding: 5px 10px;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+}
+
+.sitebar__list__link{
+    content: '';
+
+}

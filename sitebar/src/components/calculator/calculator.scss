@@ -1,0 +1,29 @@
+.calculator__block{
+    width: 100%;
+    max-width: 12Ч00px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.number__block{
+    border: #000  1px solid ;
+    padding: 10px 15px;
+}
+
+
+.signBtn{
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 10px;
+    border: 1px solid #000;
+
+}
+
+.answer__block{
+    padding: 10px 15px;
+    border: 1px solid #000;
+    
+
+}
+

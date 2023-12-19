@@ -1,0 +1,157 @@
+.chat__project {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  max-height: 600px;
+}
+
+.chat__window__block {
+  width: 50%;
+}
+
+.chat__window__block {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.message__show__block {
+  flex-grow: 1;
+  overflow-y: scroll;
+}
+
+.message__block {
+  width: 90%;
+}
+
+.user__message__name {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.user__message__value {
+  padding: 10px 10px;
+  margin: 2px 0;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+.user__message__data {
+  display: flex;
+  justify-content: right;
+  text-align: right;
+}
+
+.message__write__block {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-top: 10px;
+  height: 90%;
+  overflow: hidden;
+  max-height: 35px;
+}
+
+.message__value {
+  flex-grow: 1;
+  height: 100%;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  outline: 0;
+  outline-offset: 0;
+  background-color: #4CAF50;
+}
+
+.message__send__btn {
+  padding: 0 10px;
+  height: 100%;
+  background-color: #4CAF50;
+  color: #000;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.autho__window__block {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.autho__database {
+  width: 100%;
+  max-width: 170px;
+  height: 90%;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 15px;
+}
+
+.database__user {
+  list-style: none;
+  padding: 10px 10px;
+  border: 1px solid #000;
+  margin: 2px 0;
+  cursor: pointer;
+}
+
+.selectedUser {
+  background-color: #000;
+  color: #fff;
+}
+
+.autho__create__user {
+  width: 65%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.autho__created__block {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #4CAF50;
+  border-radius: 6px;
+}
+
+.autho__create__title {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.user__name {
+  width: 90%;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: none;
+  outline: 0;
+  outline-offset: 0;
+}
+
+.create__user__btn {
+  padding: 8px 15px;
+  background-color: #fff;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 4px;
+  color: #4CAF50;
+}
+
+.error__Message {
+  color: rgb(170, 47, 47);
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}/*# sourceMappingURL=chat.module.css.map */

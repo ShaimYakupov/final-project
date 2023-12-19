@@ -1,0 +1,96 @@
+.graphic__main__structure{
+    display: flex;
+    max-height: 90vh;
+    height: 100%;
+    
+}
+
+// right block
+
+
+.rigth__block{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    max-width: 100%;
+    width: 100%;
+    background-color: #343c67;
+}
+
+.graphic__main__block__links{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+// sitebar block
+.sitebar__graphic{
+    max-width: 20%;
+    width: 100%;
+    background-color: #495dc1;
+    color: #fff;
+    height: 100%;
+}
+
+.sitebar__graphic__links{
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+}
+
+// create graphic block==========================================================
+
+.create__graphic__block{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    height: 50%;
+}
+
+.graphic__build__block{
+    display: flex;
+    width: 49%;
+    background-color: #fff;
+    border-radius: 6px;
+    height: 100%;
+
+}
+
+// data input block
+
+.graphic__statistic__block{
+    width: 49%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 6px;
+    height: 100%;
+    align-items: center;
+}
+
+.graphic__statistic__title{
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 20px;
+}
+
+.graphic__data{
+    width: 90%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.input__data{
+    padding: 10px 10px;
+    margin: 3px 0;
+}
+
+.graphic__create__btn{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #495dc1;
+    color: #fff;
+    padding: 10px 15px;
+    margin-top: 20px;
+}

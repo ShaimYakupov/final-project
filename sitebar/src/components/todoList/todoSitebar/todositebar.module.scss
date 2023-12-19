@@ -1,0 +1,25 @@
+// sitebar block
+.todo__sitebar{
+    width: 30%;
+    background-color: #474948;
+}
+
+.todo__sitebar__list__name{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 5px 15px;
+}
+
+.todo__sitebar__link{
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.todo__sitebar__icons{
+    margin-right: 10px;
+    font-size: 20px;
+}
